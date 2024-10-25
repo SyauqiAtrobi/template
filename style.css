@@ -1,0 +1,116 @@
+body{
+    background-color: grey;
+}
+
+.gambar-atas{
+    background-image:url(rainbow-curvejpg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 20rem;
+}
+
+.text-dalam-gambar{
+    padding-top: 10%;
+    color: white;
+    text-align: center;
+    font-size: 42px;
+}
+
+.text2-dalam-gambar{
+    color: white;
+    text-align: center;
+}
+
+.tombol-dalam-gambar{
+    color: white;
+    font-weight: bold;
+    border:3px solid white;
+    background-color: transparent;
+    width: 20%;
+    height: 15%;
+    margin-left: 45%;
+    margin-right: 45%;
+    border-radius: 5px;
+}
+.tombol-dalam-gambar:hover{
+    background-color: white;
+    color: black;
+    transition: 0.3s linear;
+}
+/*gambar*/
+.gambar{
+    background-color: rgb(0, 255, 213);
+    display: flex;
+    margin:5%;
+    margin-left:10%;
+}
+.gambar img{
+    width: auto;
+    background-color: red;
+    border: 3px solid;
+    border-radius: 10px;
+}
+.datadiri{margin:5%}
+.datadiri td{
+    font-size: 2rem;
+    margin-left: 5%;
+}
+/*Halaman 1*/
+.halaman1{
+    display: inline;
+    width: 100vh;
+}
+.about{
+    border: 1px solid black;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.history{
+    border: 1px solid black;
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.about p, .history p{
+    border: 1px solid;
+    margin-left: 35%;
+    margin-right: 20%;
+    padding: 1%;
+}
+.about h1, .history h1{
+    margin-left: 30%;
+}
+
+.hal2{
+    text-align: center; 
+    background-color: gainsboro; 
+    margin-bottom: 0%;
+}
+/*Halaman 2*/
+.halaman2{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    background-color: gainsboro;
+}
+.item1, .item2, .item3{
+    margin-top: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
+.halaman2 h1{border: 1px solid;}
+
+.item1 p, .item2 p, .item3 p{
+    border: 1px solid;
+    text-align: center;
+}
+
+address{
+    background-color: yellow;
+    text-align: center;
+    font-size: large;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
