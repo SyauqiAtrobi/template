@@ -5,6 +5,7 @@ body {
     padding: 0;
 }
 
+/* Hero Section */
 .gambar-atas {
     background-image: url('rainbow-curvejpg.jpg');
     background-repeat: no-repeat;
@@ -57,15 +58,23 @@ body {
 }
 
 .gambar img {
-    max-width: 100%;
-    width: 30rem;
-    height: auto;
+    width: 20rem;
     border-radius: 10px;
 }
-.datadiri{margin-left: 5%;}
+
+.datadiri {
+    margin-left: auto;
+    width: 100%;
+}
+
+.datadiri table {
+    width: 20rem;
+}
+
 .datadiri td {
-    font-size: 2rem;
+    font-size: 1rem;
     font-weight: bold;
+    text-align: left;
     color: #333;
 }
 
@@ -124,4 +133,59 @@ address {
     margin: 2rem 5%;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsiveness */
+@media (max-width: 720px) {
+    .gambar {
+        flex-direction: column;
+        text-align: center;
+        margin: 1rem 2%;
+    }
+
+    .gambar img {
+        width: 7rem;
+    }
+
+    .text-dalam-gambar {
+        font-size: 2rem;
+    }
+
+    .text2-dalam-gambar {
+        font-size: 1.2rem;
+    }
+
+    .item {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .item div {
+        max-width: 100%;
+        padding: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .text-dalam-gambar {
+        font-size: 1.5rem;
+    }
+
+    .text2-dalam-gambar {
+        font-size: 1rem;
+    }
+
+    .gambar {
+        gap: 1rem;
+        padding: 1rem;
+        margin: 1rem;
+    }
+
+    .tombol-dalam-gambar {
+        padding: 0.5rem 1.5rem;
+    }
+
+    .datadiri table {
+        width: 100%;
+    }
 }
